@@ -1,9 +1,9 @@
 
-package Model;
+package personas;
 
 import java.util.Objects;
 
-public class Cliente extends Persona {
+public class Cliente extends PersonaMaster {
     private String mail;
     private String telefono;
 

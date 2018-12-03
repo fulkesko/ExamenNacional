@@ -1,8 +1,8 @@
-package Model;
+package personas;
 
 import java.util.Objects;
 
-public class Persona {
+public class PersonaMaster {
     private String nombre;
     private String rut;
 
@@ -25,7 +25,7 @@ public class Persona {
         if (getClass() != obj.getClass()) {
             return false;
         }
-        final Persona other = (Persona) obj;
+        final PersonaMaster other = (PersonaMaster) obj;
         if (!Objects.equals(this.nombre, other.nombre)) {
             return false;
         }

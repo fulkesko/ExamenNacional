@@ -1,7 +1,7 @@
 
-package Model;
+package personas;
 
-public class Director extends Persona{
+public class Director extends PersonaMaster{
     private String nacionalidad;
 
     public String getNacionalidad() {
